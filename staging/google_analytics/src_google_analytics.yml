@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: google_analytics
+    database: fivetran-sources
+    schema: google_analytics_4
+    tables:
+      - name: ecommerce_overview_extended
